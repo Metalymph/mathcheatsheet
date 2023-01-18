@@ -2,13 +2,15 @@
 A simple math cheatsheet for fast search 🔍 
 
 ### Index
-[Disequations](#disequations)
-[Second order inear Equations](#second-order-linear-equations)
-[Notable Products](#notable-products)
-[Third order or more linear equations](#third-order-or-more-linear-equations)
-[Logarithms and properties](#logarithms-and-properties)
-[Limits and theorems](#limits-and-theorems)
-[Function study](#function-study)
+- [mathcheatsheet](#mathcheatsheet)
+    - [Index](#index)
+    - [Disequations](#disequations)
+    - [Second order linear equations](#second-order-linear-equations)
+    - [Notable products](#notable-products)
+    - [Third order or more linear equations](#third-order-or-more-linear-equations)
+    - [Logarithms and properties](#logarithms-and-properties)
+    - [Limits and theorems](#limits-and-theorems)
+    - [Function study](#function-study)
 
 ### Disequations
 
