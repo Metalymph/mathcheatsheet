@@ -8,8 +8,9 @@ A simple math cheatsheet for fast search 🔍
     - [Notable products](#notable-products)
     - [Third order or more linear equations](#third-order-or-more-linear-equations)
     - [Disequations](#disequations)
-    - [Logarithms and properties](#logarithms-and-properties)
-    - [Limits and theorems](#limits-and-theorems)
+    - [Logarithms](#logarithms)
+    - [Limits](#limits)
+    - [Derivatives](#derivatives)
 
 ### Second order linear equations
 given the following assumptions:
@@ -55,7 +56,7 @@ $ax^2+bx+c$ and $\Delta = b^2 - 4ac,$ for:
 
 ---
 
-### Logarithms and properties
+### Logarithms
 *    $a^{\log{_a}{b}} = b$ (definition)
 *    $\log{_a}{b^c} = c\log{_a}{b}$ (Exponent)
 *    $\log{_a}{bc} = \log{_a}{b}+\log{_a}{c}$ (Product)
@@ -65,7 +66,7 @@ $ax^2+bx+c$ and $\Delta = b^2 - 4ac,$ for:
 
 ---
 
-### Limits and theorems
+### Limits
 
 If $f(x)$ is defined and continuous in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an *L* $\in \R$.
 
@@ -120,3 +121,5 @@ so, with $a = e$:
 
 *    **Neplero's number**
     $$\lim_{x \rArr \plusmn\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \rArr \plusmn\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
+
+### Derivatives
