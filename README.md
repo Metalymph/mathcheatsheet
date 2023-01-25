@@ -77,7 +77,7 @@ $$\lim_{x \rArr x_{0}} f(x) = l \ne 0$$
 
 than, a surrounding area of $x_{0}$ exists, where **both** $l$ and $f(x)$ are **both** positive or both negative.
 
-![](https://github.com/Metalymph/mathcheatsheet/constant_sign_t.png)
+![Constant_sign_t.png](./constant_sign_t.png)
 
 **Comparing theorem**
 If you have $ h(x) \le f(x) \le g(x)$ three functions defined in the surrounding area $H$ of $x_{0}$ (not defined in $x_{0}$) so, if in $H$ is always valid:
