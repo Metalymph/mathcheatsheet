@@ -99,3 +99,24 @@ than, if the limit for $x \rArr x_{0}$ is $l$, the limit for $f(x)$ is **also** 
 **Limit uniqueness theorem**
 If $f(x)$ has limit $l$ for $x \rArr x_{0}$, than $l$ is **unique**.
 
+**Notable limits**
+ There are some limits for whom the existence of limit and proofness is battle-tested. They are known and they are all $\frac{0}{0}$ cases, but not the last (Neplero's number, $1^{\infin} $). 
+ *N.B:* Not all cases are shown.
+
+*    **Logarithmic** function, with $a > 0$ and $a \ne 1$:
+    $$\lim_{x \rArr 0}\frac{log_{a}(1+x)}{x} = \frac{1}{ln(a)};  \lim_{f(x) \rArr 0}\frac{log_{a}(1+f(x))}{f(x)} = \frac{1}{ln(a)}$$
+    
+so, with $a = e$:
+    $$\lim_{x \rArr 0}\frac{ln(1+x)}{x} = 1;  \lim_{f(x) \rArr 0}\frac{ln(1+f(x))}{f(x)} = 1$$  
+
+*    **Exponential** function, with $a > 0$:
+    $$\lim_{x \rArr 0}\frac{a^x-1}{x} = ln(a);  \lim_{f(x) \rArr 0}\frac{a^{f(x)}-1}{f(x)} = ln(a)$$
+
+so, with $a = e$:
+    $$\lim_{x \rArr 0}\frac{e^x-1}{x} = 1;  \lim_{f(x) \rArr 0}\frac{e^{f(x)}-1}{f(x)} = 1$$
+
+*    **Power with difference** with $c \in \R$:
+    $$\lim_{x \rArr 0}\frac{(1+x)^c-1}{x} = c;  \lim_{f(x) \rArr 0}\frac{(1+f(x))^c-1}{f(x)} = c$$
+
+*    **Neplero's number**
+    $$\lim_{x \rArr \plusmn\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \rArr \plusmn\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
