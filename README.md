@@ -4,20 +4,17 @@ A simple math cheatsheet for fast search 🔍
 ### Index
 - [mathcheatsheet](#mathcheatsheet)
     - [Index](#index)
-    - [Disequations](#disequations)
     - [Second order linear equations](#second-order-linear-equations)
     - [Notable products](#notable-products)
     - [Third order or more linear equations](#third-order-or-more-linear-equations)
+    - [Disequations](#disequations)
     - [Logarithms and properties](#logarithms-and-properties)
     - [Limits and theorems](#limits-and-theorems)
-    - [Function study](#function-study)
-
-### Disequations
 
 ### Second order linear equations
 given the following assumptions:
 
-$ax^2+bx+c$ $\Delta = b^2 - 4ac, for:$
+$ax^2+bx+c$ and $\Delta = b^2 - 4ac,$ for:
 1) $\Delta > 0 :$ we have two solutions in $\R$
 2) $\Delta = 0 :$ we have two solutions (same point) in $\R$
 3) $\Delta < 0 :$ we have **no** solution in $\R$
@@ -42,6 +39,19 @@ If no notable product is found, than we can **try** *Ruffini's Method*. We shall
 1) We need to calculate $f(x)$ substituting $x$ with each divisor of $c$ until we take the result 0 (satisfied equation).
 2) When found, apply the matrix method (see a reference). The result **must be** 0 for the known term.
 3) Write the result in the given form and apply the method again if necessary (but first, see if you have a *notable product*).
+
+---
+
+### Disequations
+
+First order disequations are resolved like simple equations, keeping in mind that if you multiply or divide both members for a constant (changing the sign), also the disquation symbol must be inverted.
+
+For second order disequations, you can resolve the second order equation and with $a \ne 0$:
+
+$ax^2+bx+c$ and $\Delta = b^2 - 4ac,$ for:
+1) $\Delta > 0 :$ we have two solutions in $\R$, so solution : $x_{1} < x, x > x_{2}$
+2) $\Delta = 0 :$ we have two solutions (same point) in $\R$, so solution is $\forall x \ne x1,x2$ (where $x_{1}= x_{2}$)
+3) $\Delta < 0 :$ we have **no** solution in $\R$, so solution is $\forall x$
 
 ---
 
@@ -88,8 +98,4 @@ than, if the limit for $x \rArr x_{0}$ is $l$, the limit for $f(x)$ is **also** 
 
 **Limit uniqueness theorem**
 If $f(x)$ has limit $l$ for $x \rArr x_{0}$, than $l$ is **unique**.
-
----
-
-### Function study
 
